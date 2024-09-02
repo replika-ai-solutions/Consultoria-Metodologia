@@ -28,7 +28,7 @@
 ## Diagrama de Metodologia SMART 📊
 
 ```mermaid
-graph TD
+flowchart TD
     A[Início] --> B[Definir Objetivos SMART]
     B --> C[Reduzir Custos em 10%]
     B --> D[Aumentar Receita ou Lucro em 10%]
@@ -36,33 +36,30 @@ graph TD
     B --> F[Implementar Soluções de RPA]
 
     C --> G[Analisar Custos]
+    G --> G1[Relatório Detalhado]
     C --> H[Desenvolver Plano de Redução de Custos]
+    H --> H1[Plano e Metas]
     C --> I[Monitorar e Ajustar Estratégias]
+    I --> I1[Ajustes Necessários]
 
     D --> J[Analisar Receitas e Custos]
+    J --> J1[Relatório de Receita]
     D --> K[Desenvolver Estratégias de Marketing e Vendas]
+    K --> K1[Estratégias de Crescimento]
     D --> L[Monitorar e Ajustar Estratégias]
+    L --> L1[Ajustes Necessários]
 
     E --> M[Mapear Processos]
+    M --> M1[Análise de Eficiência]
     E --> N[Implementar Automação]
+    N --> N1[Automação Implementada]
     E --> O[Monitorar e Ajustar Estratégias]
+    O --> O1[Ajustes Necessários]
 
     F --> P[Selecionar Processos para RPA]
+    P --> P1[Processos Selecionados]
     F --> Q[Implementar RPA]
+    Q --> Q1[RPA Implementado]
     F --> R[Monitorar e Ajustar Estratégias]
-
-    G --> S[Relatório Detalhado]
-    H --> T[Plano e Metas]
-    I --> U[Ajustes Necessários]
-
-    J --> V[Relatório de Receita]
-    K --> W[Estratégias de Crescimento]
-    L --> X[Ajustes Necessários]
-
-    M --> Y[Análise de Eficiência]
-    N --> Z[Automação Implementada]
-    O --> AA[Ajustes Necessários]
-
-    P --> AB[Processos Selecionados]
-    Q --> AC[RPA Implementado]
-    R --> AD[Ajustes Necessários]
+    R --> R1[Ajustes Necessários]
+```
